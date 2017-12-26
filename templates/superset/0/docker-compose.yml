@@ -1,5 +1,5 @@
 superset:
-  image: superset:latest
+  image: jigsawinc/docker-superset:latest
   environment:
     - SUPERSET_USER=${SUPERSET_USER}
     - SUPERSET_FIRSTNAME=${SUPERSET_FIRSTNAME}
